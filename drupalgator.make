@@ -12,6 +12,16 @@ projects[kw_itemnames][download][type] = "git"
 projects[kw_itemnames][download][url] = "git://github.com/kraftwagen/kw-itemnames.git"
 projects[kw_itemnames][subdir] = "contrib"
 
+projects[rating_algorithm_system][type] = "module"
+projects[rating_algorithm_system][download][type] = "git"
+projects[rating_algorithm_system][download][url] = "danielbeeke@git.drupal.org:sandbox/danielbeeke/2097433.git"
+projects[rating_algorithm_system][subdir] = "contrib"
+
+projects[entity_tokens_multiple_field_logic][type] = "module"
+projects[entity_tokens_multiple_field_logic][download][type] = "git"
+projects[entity_tokens_multiple_field_logic][download][url] = "danielbeeke@git.drupal.org:sandbox/danielbeeke/2097423.git"
+projects[entity_tokens_multiple_field_logic][subdir] = "contrib"
+
 ; Modules
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
@@ -55,8 +65,11 @@ projects[ctools][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
-projects[leaflet][type] = "module"
-projects[leaflet][subdir] = "contrib"
+projects[feeds][type] = "module"
+projects[feeds][subdir] = "contrib"
+
+projects[job_scheduler][type] = "module"
+projects[job_scheduler][subdir] = "contrib"
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
@@ -84,3 +97,5 @@ projects[jquery_update][subdir] = "contrib"
 
 ; Themes
 projects[bootstrap][type] = "theme"
+
+projects[shiny][type] = "theme"
