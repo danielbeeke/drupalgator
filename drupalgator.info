@@ -1,0 +1,14 @@
+name = drupalgator
+description = Install site for drupalgator
+core = 7.x
+
+dependencies[] = block
+dependencies[] = dblog
+
+dependencies[] = kw_manifests
+dependencies[] = features
+
+env_dependencies[development][] = field_ui
+env_dependencies[development][] = strongarm
+
+files[] = drupalgator.profile
